@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dardero {
+  font-size: 4rem;
+}
+
+.barra {
+  display: flex;
+  justify-content: end;
+}
+
+.titulo {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+.medios {
+  padding-top: 2rem;
+  background-color: rgb(253, 235, 235);
+  height: 350px;
+}
+.medios .camion {
+  font-size: 4rem;
+}
+
+.columna {
+  text-align: center;
+}
+
+.pie {
+  padding-top: 2rem;
+  height: 600px;
+  background-color: rgb(172, 168, 168);
+  font-size: 2rem;
+  text-align: start;
+}
+.pie .social {
+  color: white;
+  font-size: 2rem;
+}
+.pie .subtitulo-footer {
+  color: black;
+  font-weight: 600;
+}
+.pie .copy {
+  height: 3rem;
+}
+.pie .boton {
+  border: 2px solid black;
+  text-align: center;
+}
+.pie .info-contacto {
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+}
+.pie .contact-item {
+  color: white;
+}
+
+/* Animacion */
+.img-animation {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .medios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.armas {
+  background-color: rgb(30, 70, 30);
+}
+
+.precio {
+  color: green;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.titulo {
+  padding: 2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Animaciones */
+.titulo {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.contenedor {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */

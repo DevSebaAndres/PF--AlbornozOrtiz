@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.armas{
+    background-color: rgb(30, 70, 30);
+}
+
+.precio{
+    color:$secondary-color;
+    font-size: 1.5rem;
+    padding:1rem;
+}
+
+.titulo{
+    padding:2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Animaciones */
+.titulo {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .contenedor{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
